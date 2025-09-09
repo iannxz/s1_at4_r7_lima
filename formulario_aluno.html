@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Form</title>
+</head>
+
+<body>
+  <h2> Formulário</h2>
+
+  <form action="/action_page.php">
+    <label for="fname">Nome Completo:</label><br>
+    <input type="text" id="fname" name="name" value=""><br><br>
+    <label for="idade">Idade:</label><br>
+    <input type="number" id="idade" name="idade" min="18" max="120"><br><br>
+
+    <label for="file">Arquivo:</label><br>
+    <input type="file" id="file" name="Arquivo"><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br><br>
+
+
+    <label for="Password">Senha:</label><br>
+    <input type="password" id="Password" name="Password"><br><br>
+
+    <label for="date">Data de nascimento:</label><br>
+    <input type="date" id="date" name="date"><br><br>
+
+    <label for="tel">Telefone:</label><br>
+    <input type="tel" id="tel" name="tel" value="" placeholder="(XX) XXXXXX-XXXX"><br><br>
+
+
+    <label>Gênero:</label><br>
+    <input type="radio" id="genero1" name="genero" value="Masculino">
+    <label for="genero1">Masculino</label>
+
+    <input type="radio" id="genero2" name="genero" value="Feminino">
+    <label for="genero2">Feminino</label><br><br>
+    
+      <label for="estado">Estado:</label><br>
+    <select id="estado" name="estado">
+        <option value="sp">São Paulo</option>
+        <option value="rj">Rio de Janeiro</option>
+        <option value="mg">Minas Gerais</option></select><br><br>
+
+        <label for="mensagem">Mensagem:</label><br>
+        <textarea id="mensagem" name="mensagem"></textarea>
+<br>
+
+    <input type="submit" value="Enviar">
+
+  </form>
+</body>
+
+</html>
